@@ -1,0 +1,32 @@
+{
+  "name": "software-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.16.4",
+    "mocha": "^5.2.0",
+    "nyc": "^13.3.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js",
+    "cover": "nyc --reporter=html --reporter=text --reporter=lcov mocha"
+  },
+  "author": "Riyuzak2510",
+  "license": "ISC",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Riyuzak2510/Taxi-System-with-Chai-mocha-and-nyc-unit-testing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Riyuzak2510/Taxi-System-with-Chai-mocha-and-nyc-unit-testing/issues"
+  },
+  "homepage": "https://github.com/Riyuzak2510/Taxi-System-with-Chai-mocha-and-nyc-unit-testing#readme",
+  "description": ""
+}
